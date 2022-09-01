@@ -7,13 +7,14 @@ body{
 }
 
 .container{
-border-style: groove;
+/*--border-style: groove; --*/
 text-align: center;
 }
 
+ /*-- 
 .contain{
-    border-style:groove;
-}
+  border-style:groove;  
+} --*/
 
 input{
     margin: auto;
@@ -25,6 +26,13 @@ input{
     box-sizing: border-box;
 }
 
+.choose{
+    padding: 15px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 50%;
+}
+
 input[type=submit] {
 
     background-color: rgb(173, 205, 205);
@@ -33,3 +41,6 @@ input[type=submit] {
     margin-left: 5%;
     margin-right: 50%;
 }
+
+
+
